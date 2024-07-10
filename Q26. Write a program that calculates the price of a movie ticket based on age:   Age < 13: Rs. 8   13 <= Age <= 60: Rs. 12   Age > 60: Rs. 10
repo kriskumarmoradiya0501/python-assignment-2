@@ -1,0 +1,10 @@
+
+age = int(input("Enter Your Age : "))
+
+if age<13:
+    print("Your tickts price is 8 Rupees.")
+elif 13<=age and age<=60:
+    print("Your tickts price is 12 Rupees.")
+elif age>60:
+    print("Your tickets price is 10 Rupees.")
+    
