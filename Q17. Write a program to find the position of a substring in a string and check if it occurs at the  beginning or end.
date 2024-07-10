@@ -1,0 +1,14 @@
+s = input("Enter string : ")
+print(s)
+s1 = input("Enter sub string : ")
+print(s1)
+
+if s.startswith(s1):
+    print("It is start with sub string")
+    print("its index is",s.index(s1))
+elif s.endswith(s1):
+    print("It is ends with sub strind.")
+    print("its index is",s.index(s1))
+else:
+    print("It is not start or not ends with sub string")
+    print("its index is",s.index(s1))
