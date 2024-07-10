@@ -1,0 +1,10 @@
+s = input("Enter String")
+print(s)
+s1 = input("Enter string to compaire")
+print(s1)
+
+if s == s1:
+    print("both the string are equal")
+else:
+    print("both the string are different")
+
