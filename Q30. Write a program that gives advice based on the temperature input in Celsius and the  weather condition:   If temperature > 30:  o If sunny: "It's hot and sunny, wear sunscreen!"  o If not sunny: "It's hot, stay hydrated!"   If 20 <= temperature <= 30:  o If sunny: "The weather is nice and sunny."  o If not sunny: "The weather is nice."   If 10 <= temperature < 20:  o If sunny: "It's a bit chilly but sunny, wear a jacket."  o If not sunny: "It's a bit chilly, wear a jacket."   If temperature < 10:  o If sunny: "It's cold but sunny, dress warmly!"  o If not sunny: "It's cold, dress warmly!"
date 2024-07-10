@@ -1,0 +1,25 @@
+
+temp = float(input("Enter the temperature : "))
+sunny = input("Is it sunny yes or no: ")
+if temp > 30:
+    if sunny == "yes":
+        ad = "It's hot and sunny, wear sunscreen!"
+    else:
+        ad = "It's hot, stay hydrated!"
+elif 20 <= temp <= 30:
+    if sunny == "yes":
+        ad = "The weather is nice and sunny."
+    else:
+        ad = "The weather is nice."
+elif 10 <= temp < 20:
+    if sunny == "yes":
+        ad = "It's a bit chilly but sunny, wear a jacket."
+    else:
+        ad = "It's a bit chilly, wear a jacket."
+else:
+    if sunny == "yes":
+        ad = "It's cold but sunny, dress warmly!"
+    else:
+        ad = "It's cold, dress warmly!"
+
+print(f"Advice: {ad}")
