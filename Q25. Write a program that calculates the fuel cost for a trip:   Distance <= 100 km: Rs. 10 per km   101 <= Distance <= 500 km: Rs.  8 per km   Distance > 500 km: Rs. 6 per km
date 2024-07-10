@@ -1,0 +1,10 @@
+
+km = float(input("Enter your trip KM : "))
+
+if km<=100:
+    print("Your cost will be ",((km*10)))
+elif 101<=km and km<=500:
+    print("Your cost will be ",((km-100)*8)+1000)
+elif km>500:
+    print("Your cost will be ",((km-500)*6)+5000)
+
