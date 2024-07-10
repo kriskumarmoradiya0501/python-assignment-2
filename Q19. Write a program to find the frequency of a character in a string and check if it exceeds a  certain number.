@@ -1,0 +1,5 @@
+s = input("Enter String : " )
+print(s)
+s1 = input("Enter char for wich you want to found count  : " )
+
+print("count of ",s1," is ",s.count(s1))
