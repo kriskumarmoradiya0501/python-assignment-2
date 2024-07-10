@@ -1,0 +1,11 @@
+buy = float(input("Enter Buying Price "))
+sale = float(input("Enter Selling Price"))
+
+if buy<sale:
+    print("Profit = ",(sale - buy))
+elif sale<buy:
+    print("loss = ",(buy-sale))
+elif buy == sale:
+    print("no profit no lose")
+else:
+    print("invalide")
