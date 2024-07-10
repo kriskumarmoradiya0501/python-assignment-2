@@ -1,0 +1,12 @@
+u = float(input("Enter Your electricity bill : "))
+
+if u <=100:
+    print("Your bill = ",(u*10))
+elif u>100 and u<=200:
+    print("Your bill = ",((u-100)*8)+1000)
+elif u>200 and u<=300:
+    print("Your bill = ",((u-200)*7)+1800)
+elif u>300:
+    print("Your bill = ",((u-300)*6.5)+2500)
+else:
+    print("invalide")
