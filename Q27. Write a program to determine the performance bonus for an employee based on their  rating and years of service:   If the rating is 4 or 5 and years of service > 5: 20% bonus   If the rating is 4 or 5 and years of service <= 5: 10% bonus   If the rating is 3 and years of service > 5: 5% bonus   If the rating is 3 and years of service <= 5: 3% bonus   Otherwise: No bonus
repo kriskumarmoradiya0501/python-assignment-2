@@ -1,0 +1,14 @@
+
+rat = float(input("Enter Employee rating : "))
+serv = float(input("Enter Employee service : "))
+
+if (rat==4 or rat==5)and serv>=5:
+    print("20% bonus")
+elif (rat==4 or rat==5) and serv<=5:
+    print("10% bonus")
+elif rat==3 and serv>5:
+    print("5% bonus")
+elif rat==3 and serv<=5:
+    print("3% bonus")
+else:
+    print("No bonus")
