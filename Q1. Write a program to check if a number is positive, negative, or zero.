@@ -1,0 +1,10 @@
+num = int(input("Enter Number for which you want to check possitive,negative or zero :"))
+
+if num>0 :
+    print(num," is possitive  number.")
+elif num<0 :
+    print(num," is negative.")
+elif num==0:
+    print(num," is zero")
+else:
+    print("invalide")
