@@ -1,0 +1,16 @@
+bill = float(input("Enter bill amount : "))
+
+if bill<5000:
+    print("Your discount amount is ",(bill*0.05))
+    print("Your payable amount is ",(bill - (bill*0.05)))
+    print("Total bill amount is ",bill)
+elif bill>=5000 and bill<10000:
+    print("Your discount amount is ",(bill*0.10))
+    print("Your payable amount is ",(bill - (bill*0.10)))
+    print("Total bill amount is ",bill)
+elif bill>=10000:
+    print("Your discount amount is ",(bill*0.15))
+    print("Your payable amount is ",(bill - (bill*0.15)))
+    print("Total bill amount is ",bill)
+else:
+    print("Invalide")
