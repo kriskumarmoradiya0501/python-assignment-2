@@ -1,0 +1,9 @@
+temp = int(input("Enter temp for which you want to check is freezing,normal,or boiling temperature:"))
+
+if temp<=0 :
+    print(temp," is freezing temperature.")
+elif (temp>0) and (temp<100):
+    print(temp," is normal temperature")
+elif temp>=100:
+    print(temp," is boiling temperature. ")
+
