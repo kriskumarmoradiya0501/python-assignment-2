@@ -1,0 +1,14 @@
+score = int(input("Enter score for which you want to check is Grades(A,B,C,D,F):"))
+
+if score>=90 and score<=100 :
+    print(score," Grade A")
+elif (score>=80) and (score<90):
+    print(score," Grade B")
+elif score>=70 and score<80:
+    print(score," Grade C ")
+elif score>=50 and score<70:
+    print(score," Grade D ")
+elif score<50:
+    print(score," Grade F ")
+    
+
