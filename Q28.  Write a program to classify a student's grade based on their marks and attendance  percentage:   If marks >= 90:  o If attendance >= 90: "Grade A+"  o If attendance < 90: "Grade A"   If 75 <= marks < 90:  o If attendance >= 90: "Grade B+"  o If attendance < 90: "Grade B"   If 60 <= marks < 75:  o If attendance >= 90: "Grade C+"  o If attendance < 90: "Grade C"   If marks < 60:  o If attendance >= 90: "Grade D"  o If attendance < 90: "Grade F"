@@ -1,0 +1,26 @@
+
+marks = float(input("Enter the student's marks: "))
+attendance = float(input("Enter the student's attendance percentage: "))
+
+if marks >= 90:
+    if attendance >= 90:
+        grade = "Grade A+"
+    else:
+        grade = "Grade A"
+elif 75 <= marks < 90:
+    if attendance >= 90:
+        grade = "Grade B+"
+    else:
+        grade = "Grade B"
+elif 60 <= marks < 75:
+    if attendance >= 90:
+        grade = "Grade C+"
+    else:
+        grade = "Grade C"
+else:
+    if attendance >= 90:
+        grade = "Grade D"
+    else:
+        grade = "Grade F"
+
+print(f"The student's grade is: {grade}")
