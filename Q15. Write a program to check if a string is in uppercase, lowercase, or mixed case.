@@ -1,0 +1,9 @@
+s = input("Enter string : ")
+
+if s.islower():
+    print("it is lower.")
+elif s.isupper():
+    print("it is upper.")
+else:
+    print("it is mixed")
+
