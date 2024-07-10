@@ -1,0 +1,6 @@
+s = input("Enter string : ")
+
+if s.isnumeric():
+    print("it contain numeric values only")
+else :
+    print("it has other values too")
