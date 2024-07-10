@@ -1,0 +1,21 @@
+
+distance = float(input("Enter the distance : "))
+urgent = input("Is it urgent yes or no: ")
+
+if distance <= 5:
+    if urgent == "yes":
+        travel = "Take a cab"
+    else:
+        travel = "Walk"
+elif 5 < distance <= 20:
+    if urgent == "yes":
+        travel = "Take a cab"
+    else:
+        travel = "Take a bus"
+else:
+    if urgent == "yes":
+        travel = "Take a flight"
+    else:
+        travel = "Take a train"
+
+print(f"Suggested mode of travel: {travel}")
