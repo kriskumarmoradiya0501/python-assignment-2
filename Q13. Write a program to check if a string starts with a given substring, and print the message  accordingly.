@@ -1,0 +1,7 @@
+s = input("Enter String : ")
+print(s)
+s1 = input("Enter sub string to check whether the string is start with this sub string or not ");
+if s[ : len(s1)] == s1:
+    print(" yes it start with given string.")
+else:
+    print("no it not start with given string")
