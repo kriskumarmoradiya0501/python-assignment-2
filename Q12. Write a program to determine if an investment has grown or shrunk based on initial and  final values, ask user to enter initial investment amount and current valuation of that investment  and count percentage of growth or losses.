@@ -1,0 +1,12 @@
+buy = float(input("Enter Buying value of Properties : "))
+current=float(input("Enter Current value of propertieds : "))
+
+if buy < current:
+    print("This properties grow by",((current*100)/buy)-100,"%")
+elif current < buy:
+    print("This properties down by",((current*100)/buy)-100,"%")
+elif current == buy:
+    print("There is no grow or lose in properties.")
+else:
+    print("invalide")
+    
