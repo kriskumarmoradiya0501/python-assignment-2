@@ -1,0 +1,7 @@
+s = input("Enter String : ")
+print(s)
+s1 = input("Enter sub string to check whether the string is start with this sub string or not ");
+if s.endswith(s1):
+    print(" yes it ends with given string.")
+else:
+    print("no it not ends with given string")
